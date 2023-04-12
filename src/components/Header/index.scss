@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    padding: 10px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 27px;
+        &-search {
+            position: relative;
+            padding: 10px 13px;
+            background: #FFFFFF;
+            border: 1px solid #E5E5E5;
+            border-radius: 8px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            &::placeholder {
+                color: #C4C4C4;
+            }
+        }
+    }
+    &__back {
+        background-color: transparent;
+        border: none;
+        &:active {
+            zoom: 1.2;
+            border-radius: 50%;
+        }
+    }
+    &__notif {
+        background-color: transparent;
+        border: none;
+        &:active {
+            zoom: 1.2;
+            border-radius: 50%;
+        }
+    }
+}
